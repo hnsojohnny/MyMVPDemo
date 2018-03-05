@@ -13,5 +13,4 @@ public interface Api {
     @GET("/C_Cars/GetCarsHotBrand")
     Observable<ArrayList<CarBean>> getData();
     //test
-    //again test
 }
