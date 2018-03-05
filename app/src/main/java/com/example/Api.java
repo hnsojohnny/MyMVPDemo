@@ -12,4 +12,5 @@ public interface Api {
     public static String BASEURL = "http://101.201.44.172:9001";
     @GET("/C_Cars/GetCarsHotBrand")
     Observable<ArrayList<CarBean>> getData();
+    //test
 }
